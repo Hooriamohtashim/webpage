@@ -1,18 +1,31 @@
-body{
-  background-color: rgb(225, 149, 17);
-  ;
-}
-.navbar-custom {
-  background-color: rgb(245, 203, 147);
+body {
+background-color:navajowhite;
 
 }
 
-.nav-item{
-  margin-right:20px
+
+.navbar {
+  background-color: rgb(250, 205, 146);
 }
-button{
-color:orange
+
+ul {
+  list-style-type: none;
 }
-h1{
-  margin-top:70px;
+
+.img2{
+  float:right
+}
+h3{
+  float:right;
+  color:rgb(241, 137, 10)
+}
+@media (max-width:600px) {
+  .navbar{
+    display:inline;
+    padding:5px;
+
+  }
+  .img{
+    padding-left:0px
+  }
 }
