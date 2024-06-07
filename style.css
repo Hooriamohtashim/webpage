@@ -19,13 +19,3 @@ h3{
   float:right;
   color:rgb(241, 137, 10)
 }
-@media (max-width:600px) {
-  .navbar{
-    display:inline;
-    padding:5px;
-
-  }
-  .img{
-    padding-left:0px
-  }
-}
